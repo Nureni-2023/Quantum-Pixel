@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Review Section */
+#reviewForm {
+    display: none; /* Hidden by default */
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-btn {
+    background: #ff9800;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.review-btn:hover {
+    background: #e68900;
+}
+
+/* Rating System */
+.rating-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.star {
+    font-size: 24px;
+    color: gray;
+    transition: color 0.3s ease-in-out;
+}
+
+.star:hover,
+.star.active {
+    color: gold;
+}
+
+/* Form Styles */
+input, textarea {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+textarea {
+    height: 100px;
+}
+
+.submit-btn, .cancel-btn {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.submit-btn {
+    background: #28a745;
+    color: white;
+}
+
+.cancel-btn {
+    background: #dc3545;
+    color: white;
+}
