@@ -272,7 +272,7 @@ a{
   grid-template-rows: 24rem 24rem;
   justify-content: center;
   /* align-items: center; */
-  column-gap: 4rem;
+  column-gap: 2.4rem;
   row-gap: 8rem;
   font-family: Arial, sans-serif;
   border-radius: 40px; 
